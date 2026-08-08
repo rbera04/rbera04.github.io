@@ -5,35 +5,35 @@
 
 const resumeData = {
     name: 'Ranjan Bera',
-    title: 'DevOps & Security Engineer',
-    summary: 'DevOps & Security Engineer with 4.9 years of experience in cloud-native automation, AI infrastructure delivery, and SOC/SIEM operations. Expert in AWS, Kubernetes, Terraform, and CI/CD pipelines, with a strong focus on infrastructure security, observability, and compliance automation. Skilled in deploying AI/LLM workloads with Ollama, integrating FOSSology for open-source license compliance, and building secure, scalable, high-performance environments aligned with industry best practices.',
+    title: 'AWS DevOps Engineer',
+    summary: 'AWS DevOps Engineer with 4.9 years of experience in cloud-native automation, AI infrastructure delivery, and SOC/SIEM operations. Expert in AWS, Kubernetes, Terraform, and CI/CD pipelines, with a strong focus on infrastructure security, observability, and compliance automation. Skilled in deploying AI/LLM workloads with Ollama, integrating FOSSology for open-source license compliance, and building secure, scalable, high-performance environments aligned with industry best practices.',
     email: 'ranjanbera1112@gmail.com',
     phone: '+91-9609231169',
-    location: 'Kolkata, West Bengal, 700102',
+    location: 'Kolkata, West Bengal, 700102, INDIA',
     linkedin: 'https://www.linkedin.com/in/ranjanbera1112/',
     github: 'https://github.com/rbera04',
 
     basics: {
         name: 'Ranjan Bera',
-        label: 'DevOps & Security Engineer',
+        label: 'AWS DevOps Engineer',
         email: 'ranjanbera1112@gmail.com',
         phone: '+91-9609231169',
-        location: 'Kolkata, West Bengal, 700102',
+        location: 'Kolkata, West Bengal, 700102, INDIA',
         github: 'https://github.com/rbera04',
         linkedin: 'https://www.linkedin.com/in/ranjanbera1112/'
     },
 
     skills: [
-        'AWS', 'Kubernetes', 'Terraform', 'Docker', 'Helm', 'Jenkins', 'GitLab CI/CD', 'GitHub Actions', 'ArgoCD', 'Python', 'Bash', 'Prometheus', 'Grafana', 'CloudWatch'
+        'AWS', 'Kubernetes', 'Terraform', 'Docker', 'Helm', 'Jenkins', 'CI/CD', 'GitHub Actions', 'ArgoCD', 'Python', 'Bash', 'Observability and Monitoring', 'Infrastructure Security', 'Compliance Automation', 'AI/LLM Workload Deployment', 'Amazon Bedrock'
     ],
 
     technicalSkills: [
-        'Tools: Jenkins, ArgoCD, Git, Docker, Helm',
+        'Tools: Jenkins, ArgoCD, Git, Docker, Helm, SonarQube, Nexus, Fortify',
         'Container Orchestration: Kubernetes, Docker',
         'Cloud Provider: AWS',
-        'Infra as Code (IaC): Terraform',
+        'Infra as Code (IaC): Terraform, Tofu, AWS CloudFormation',
         'Scripting: shell, Python, JavaScript',
-        'Monitoring & Logging: Prometheus, Grafana, ELK',
+        'Monitoring & Logging: Prometheus, Grafana, ELK, CloudTrail, CloudWatch Logs Insights',
         'Version Control: GitHub, GitLab, AWS CodeCommit'
     ],
 
@@ -50,7 +50,7 @@ const resumeData = {
         {
             title: 'DevOps Engineer',
             company: 'TATA Consultancy Services Ltd.',
-            location: 'Kolkata',
+            location: 'Kolkata, INDIA',
             duration: 'December 2021 – Present',
             summary: 'Lead secure cloud-native automation and AI infrastructure initiatives for enterprise clients, with a strong emphasis on compliance, observability, and reliability.',
             responsibilities: [
@@ -81,6 +81,18 @@ const resumeData = {
             institution: 'Midnapore College (Autonomous), West Bengal',
             year: 'June 2019',
             details: 'Percentage: 64.12%. Relevant coursework: Data Structure & Algorithms, Computer Networks, Operating Systems, Database Management.'
+        },
+        {
+            degree: 'Higher Secondary Education (Class XII)',
+            institution: 'Nachipur Adibasi High School, West Bengal',
+            year: 'June 2016',
+            details: 'Percentage: 77.40%. Relevant coursework: Physics, Chemistry, Mathematics, Biology.'
+        },
+        {
+            degree: 'Secondary Education (Class X)',
+            institution: 'Dolgram Balakeswer High School, West Bengal',
+            year: 'June 2014',
+            details: 'Percentage: 80.00%. Relevant coursework: English, Bengali, Mathematics, Science, Social Studies.'
         }
     ],
 

@@ -414,6 +414,7 @@ function populateResumeContent() {
     const aboutStats = document.getElementById('about-stats');
     const skillsGrid = document.getElementById('skills-grid');
     const experienceTimeline = document.getElementById('experience-timeline');
+    const educationGrid = document.getElementById('education-grid');
     const projectsGrid = document.getElementById('projects-grid');
     const certificationsContainer = document.getElementById('certifications');
     const emailLinks = document.querySelectorAll('a[href^="mailto:"]');
@@ -486,6 +487,19 @@ function populateResumeContent() {
         `).join('') || '<p>No experience entries available.</p>';
 
         experienceTimeline.innerHTML = `<div class="experience-list">${experienceCardsHtml}</div>`;
+    }
+
+    if (educationGrid) {
+        educationGrid.innerHTML = resumeData.education?.map(edu => `
+            <div class="education-card">
+                <div class="edu-header">
+                    <h3 class="edu-degree">${edu.degree}</h3>
+                    <span class="edu-year">${edu.year || ''}</span>
+                </div>
+                <p class="edu-institution">${edu.institution}</p>
+                <p class="edu-details">${edu.details || ''}</p>
+            </div>
+        `).join('') || '<p>No education entries available.</p>';
     }
 
     if (projectsGrid) {

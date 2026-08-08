@@ -6,7 +6,7 @@
 const resumeData = {
     name: 'Ranjan Bera',
     title: 'AWS DevOps Engineer',
-    summary: 'AWS DevOps Engineer with 4.9 years of experience in cloud-native automation, AI infrastructure delivery, and SOC/SIEM operations. Expert in AWS, Kubernetes, Terraform, and CI/CD pipelines, with a strong focus on infrastructure security, observability, and compliance automation. Skilled in deploying AI/LLM workloads with Ollama, integrating FOSSology for open-source license compliance, and building secure, scalable, high-performance environments aligned with industry best practices.',
+    summary: 'AWS DevOps Engineer with 4.9+ years of experience in cloud-native automation, AI infrastructure delivery, and SOC/SIEM operations. Expertise in AWS, Kubernetes, Terraform, and CI/CD pipelines, with a strong focus on infrastructure security, observability, and compliance automation. Proven track record of reducing infrastructure costs by up to 30% and deployment times by 35% through GitOps and Infrastructure as Code. Experienced in deploying AI/LLM workloads with Amazon Bedrock and Ollama, integrating FOSSology for open-source license compliance, and building secure, scalable, high-performance environments aligned with industry best practices.',
     email: 'ranjanbera1112@gmail.com',
     phone: '+91-9609231169',
     location: 'Kolkata, West Bengal, 700102, INDIA',
@@ -43,7 +43,7 @@ const resumeData = {
         'Team player with a focus on cross-functional teamwork',
         'Ability to adapt quickly to new technologies',
         'Time management and task prioritization',
-        'Analytical mind-set for performance optimization'
+        'Analytical mindset for performance optimization'
     ],
 
     experience: [
@@ -52,7 +52,7 @@ const resumeData = {
             company: 'TATA Consultancy Services Ltd.',
             location: 'Kolkata, INDIA',
             duration: 'December 2021 – Present',
-            summary: 'Lead secure cloud-native automation and AI infrastructure initiatives for enterprise clients, with a strong emphasis on compliance, observability, and reliability.',
+            summary: 'Lead secure, cloud-native automation and AI infrastructure initiatives for enterprise clients, driving measurable improvements in compliance, observability, deployment reliability, and infrastructure cost efficiency.',
             responsibilities: [
                 'Designed, implemented, and maintained cloud-native AWS infrastructure for enterprise-scale applications, improving system reliability and deployment velocity.',
                 'Managed highly available, scalable, and secure Amazon EKS (Kubernetes) clusters, ensuring 99.9% uptime through operational excellence best practices.',
@@ -85,7 +85,7 @@ const resumeData = {
             degree: 'Bachelor of Science in Computer Science',
             institution: 'Midnapore College (Autonomous), West Bengal',
             year: 'June 2019',
-            details: 'Percentage: 64.12%. Relevant coursework: Data Structure & Algorithms, Computer Networks, Operating Systems, Database Management.'
+            details: 'Percentage: 64.12%. Relevant coursework: Data Structures & Algorithms, Computer Networks, Operating Systems, Database Management.'
         }
     ],
 
@@ -95,26 +95,26 @@ const resumeData = {
             link: 'assets/certificates/AI4ICPS_Certs.pdf'
         },
         {
-            name: 'DevOps Engineer from Edureka (CertID: PST4Z9TCA)',
+            name: 'DevOps Engineer, Edureka (CertID: PST4Z9TCA)',
             link: 'https://www.edureka.co/lms/certificate/82fa8fcc1e7b92c8a609473fe01f6379'
         }
     ],
 
     awards: [
-        'Recognized for driving digital DevOps improvements impacting more than five BFSI clients.',
-        'Awarded Star of the Quarter at TCS for ownership and consistent delivery in Digital DevOps.',
-        'Received three Applause awards at TCS for on-call support and issue resolution.'
+        'Recognized for driving digital DevOps improvements across 5+ enterprise clients, enhancing infrastructure reliability and delivery efficiency.',
+        'Awarded Star of the Quarter at TCS for outstanding ownership and consistent delivery in Digital DevOps.',
+        'Received three Applause Awards at TCS for proactive on-call support and rapid issue resolution.'
     ],
 
     projects: [
         {
             name: 'CI/CD Pipeline for Microservices',
-            description: 'Built an end-to-end Jenkins CI/CD pipeline for microservice applications using Kubernetes and Helm, streamlining build, test, and deployment processes to reduce manual intervention and accelerate delivery.',
+            description: 'Built an end-to-end Jenkins CI/CD pipeline for microservice applications using Kubernetes and Helm, automating build, test, and deployment stages to reduce manual intervention and accelerate release cycles.',
             link: 'https://github.com/rbera04'
         },
         {
             name: 'Infrastructure Automation',
-            description: 'Automated AWS infrastructure provisioning with Terraform and reusable modules, enabling repeatable environment creation and faster onboarding.',
+            description: 'Automated AWS infrastructure provisioning using Terraform and reusable modules, enabling repeatable, version-controlled environment creation and faster team onboarding.',
             link: 'https://github.com/rbera04'
         }
     ]

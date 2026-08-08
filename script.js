@@ -59,8 +59,8 @@ document.addEventListener('click', (e) => {
 
 const typingText = document.querySelector('.typing-text');
 const roles = [
-    'Senior DevOps Engineer',
-    'AWS Cloud Engineer',
+    'AWS DevOps Engineer',
+    'Cloud Infrastructure Engineer',
     'Platform Engineer'
 ];
 

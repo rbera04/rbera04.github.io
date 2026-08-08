@@ -1,0 +1,9 @@
+# Allow all bots to crawl
+User-agent: *
+Allow: /
+
+# Specify sitemap
+Sitemap: https://USERNAME.github.io/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1

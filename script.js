@@ -460,61 +460,32 @@ function populateResumeContent() {
     }
 
     if (experienceTimeline) {
-        const spotlightHtml = `
-            <div class="experience-spotlight">
-                <div class="spotlight-card">
-                    <p class="spotlight-label">Current Focus</p>
-                    <h3>${resumeData.title || 'DevOps & Security Engineer'}</h3>
-                    <p>${resumeData.summary || ''}</p>
-                </div>
-                <div class="spotlight-metrics">
-                    <div class="metric-tile">
-                        <span class="metric-value">4+</span>
-                        <span class="metric-label">Years in cloud engineering</span>
-                    </div>
-                    <div class="metric-tile">
-                        <span class="metric-value">AWS</span>
-                        <span class="metric-label">Kubernetes & Terraform</span>
-                    </div>
-                    <div class="metric-tile">
-                        <span class="metric-value">DevSecOps</span>
-                        <span class="metric-label">Security-first delivery</span>
-                    </div>
-                </div>
-            </div>
-        `;
-
-        const timelineHtml = resumeData.experience?.map(exp => `
-            <div class="timeline-item">
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <div class="experience-card">
-                        <div class="card-header">
-                            <div class="company-row">
-                                <div>
-                                    <h3 class="job-title">${exp.title}</h3>
-                                    <span class="company">${exp.company}${exp.location ? ` • ${exp.location}` : ''}</span>
-                                </div>
-                                <span class="duration">${exp.duration || ''}</span>
-                            </div>
-                            <div class="job-meta">
-                                <span class="meta-pill">Cloud Infrastructure</span>
-                                <span class="meta-pill">Automation</span>
-                                <span class="meta-pill">Security</span>
-                                <span class="meta-pill">Scalability</span>
-                                <span class="meta-pill">Cost Optimization</span>
-                            </div>
+        const experienceCardsHtml = resumeData.experience?.map(exp => `
+            <div class="experience-card">
+                <div class="card-header">
+                    <div class="company-row">
+                        <div>
+                            <h3 class="job-title">${exp.title}</h3>
+                            <span class="company">${exp.company}${exp.location ? ` • ${exp.location}` : ''}</span>
                         </div>
-                        <p class="job-summary">${exp.summary || ''}</p>
-                        <ul class="job-highlights">
-                            ${exp.responsibilities?.slice(0, 4).map(item => `<li>${item}</li>`).join('') || ''}
-                        </ul>
+                        <span class="duration">${exp.duration || ''}</span>
+                    </div>
+                    <div class="job-meta">
+                        <span class="meta-pill">Cloud Infrastructure</span>
+                        <span class="meta-pill">Automation</span>
+                        <span class="meta-pill">Security</span>
+                        <span class="meta-pill">Scalability</span>
+                        <span class="meta-pill">Cost Optimization</span>
                     </div>
                 </div>
+                <p class="job-summary">${exp.summary || ''}</p>
+                <ul class="job-highlights">
+                    ${exp.responsibilities?.slice(0, 4).map(item => `<li>${item}</li>`).join('') || ''}
+                </ul>
             </div>
         `).join('') || '<p>No experience entries available.</p>';
 
-        experienceTimeline.innerHTML = `${spotlightHtml}<div class="timeline">${timelineHtml}</div>`;
+        experienceTimeline.innerHTML = `<div class="experience-list">${experienceCardsHtml}</div>`;
     }
 
     if (projectsGrid) {

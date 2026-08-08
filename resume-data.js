@@ -54,17 +54,22 @@ const resumeData = {
             duration: 'December 2021 – Present',
             summary: 'Lead secure cloud-native automation and AI infrastructure initiatives for enterprise clients, with a strong emphasis on compliance, observability, and reliability.',
             responsibilities: [
-                'Designed and deployed AI infrastructure for LLM workloads using Ollama, including GPU-enabled Kubernetes nodes for high-performance inference and model lifecycle management.',
-                'Automated Amazon EKS cluster provisioning with Terraform, including VPC networking, IAM roles, and IRSA configuration to enable secure pod-to-AWS service communication.',
-                'Designed and implemented Jenkins (Groovy scripted) and GitLab CI/CD pipelines, reducing release cycle time by 50% and improving deployment reliability.',
-                'Integrated SAST security scanning into CI/CD workflows, ensuring zero critical vulnerabilities in production deployments and strengthening DevSecOps compliance.',
-                'Exposed private EKS services securely through CloudFront, regional API Gateway, and custom domains with high availability and low latency.',
-                'Deployed and secured self-hosted GitLab on EKS with RDS and Redis, integrating OAuth2 Proxy and GitLab SSO for centralized authentication for Jenkins and Kibana.',
-                'Built Kubernetes observability stack with Prometheus, Grafana, and InfluxDB, reducing manual analysis effort by 60% across 100+ services.',
-                'Reduced container CVE exposure by 80% through dependency updates and OS-level patching for Python, Node.js, and WildFly images.',
-                'Optimized Amazon EC2 spend by 40% through right-sizing, Reserved Instances/Savings Plans, and idle resource elimination.',
-                'Cut Amazon S3 costs by 20% with lifecycle policies, intelligent tiering, and storage class optimization.',
-                'Reduced monitoring costs by 60% through log ingestion optimization, retention tuning, and query frequency reduction.'
+                'Designed, implemented, and maintained cloud-native AWS infrastructure for enterprise-scale applications, improving system reliability and deployment velocity.',
+                'Managed highly available, scalable, and secure Amazon EKS (Kubernetes) clusters, ensuring 99.9% uptime through operational excellence best practices.',
+                'Developed reusable Terraform modules for VPC, IAM, S3, EKS, networking, and platform services, reducing infrastructure provisioning time by 40%.',
+                'Built and optimized CI/CD pipelines using Jenkins, GitLab CI/CD, Helm, and ArgoCD, reducing deployment time by 35% and improving release frequency.',
+                'Implemented GitOps workflows for Kubernetes deployments using ArgoCD, improving deployment reliability by 30% and reducing manual intervention by 50%.',
+                'Automated infrastructure provisioning and application deployment using Infrastructure as Code (Terraform), eliminating manual configuration errors and reducing setup time by 45%.',
+                'Implemented secure access patterns using IAM Roles for Service Accounts (IRSA) and AWS Secrets Manager, strengthening cloud security posture and audit compliance.',
+                'Built serverless automation solutions using AWS Lambda, Python, SNS, SQS, and EventBridge, reducing operational overhead by 25%.',
+                'Implemented centralized authentication using OAuth2 Proxy integrated with GitLab, enhancing security and simplifying access management across environments.',
+                'Optimized cloud infrastructure costs by 30% through strategic use of Spot Instances, Auto Scaling Groups, and Karpenter for dynamic Kubernetes node scaling.',
+                'Developed monitoring, alerting, and observability solutions using CloudWatch, Grafana, and Prometheus, reducing incident response time (MTTR) by 40%.',
+                'Implemented automated URL monitoring and notification systems for production environments, improving issue detection speed by 50%.',
+                'Designed CloudFront-based maintenance and failover solutions, achieving high availability and reducing downtime during planned maintenance windows by 60%.',
+                'Developed automated AWS Secrets Manager rotation frameworks using Lambda and Terraform, eliminating manual credential rotation and reducing security risk exposure.',
+                'Collaborated cross-functionally with development, security, and operations teams to implement DevSecOps best practices, accelerating secure software delivery.',
+                'Contributed to GenAI and LLMOps initiatives using Amazon Bedrock and Ollama, building RAG (Retrieval-Augmented Generation) proof-of-concepts and streaming architectures.'
             ]
         }
     ],
@@ -73,7 +78,7 @@ const resumeData = {
         {
             degree: 'Master of Science in Computer Science',
             institution: 'Vidyasagar University, West Bengal',
-            year: 'June 2021',
+            year: 'Sept 2021',
             details: 'CGPA: 8.73/10. Relevant coursework: Advanced Networking, Cloud Computing, Software Project Management.'
         },
         {
@@ -81,18 +86,6 @@ const resumeData = {
             institution: 'Midnapore College (Autonomous), West Bengal',
             year: 'June 2019',
             details: 'Percentage: 64.12%. Relevant coursework: Data Structure & Algorithms, Computer Networks, Operating Systems, Database Management.'
-        },
-        {
-            degree: 'Higher Secondary Education (Class XII)',
-            institution: 'Nachipur Adibasi High School, West Bengal',
-            year: 'June 2016',
-            details: 'Percentage: 77.40%. Relevant coursework: Physics, Chemistry, Mathematics, Biology.'
-        },
-        {
-            degree: 'Secondary Education (Class X)',
-            institution: 'Dolgram Balakeswer High School, West Bengal',
-            year: 'June 2014',
-            details: 'Percentage: 80.00%. Relevant coursework: English, Bengali, Mathematics, Science, Social Studies.'
         }
     ],
 

@@ -61,9 +61,7 @@ const typingText = document.querySelector('.typing-text');
 const roles = [
     'Senior DevOps Engineer',
     'AWS Cloud Engineer',
-    'Platform Engineer',
-    'Infrastructure Automation Expert',
-    'DevOps Advocate'
+    'Platform Engineer'
 ];
 
 let roleIndex = 0;
@@ -481,7 +479,7 @@ function populateResumeContent() {
                 </div>
                 <p class="job-summary">${exp.summary || ''}</p>
                 <ul class="job-highlights">
-                    ${exp.responsibilities?.slice(0, 4).map(item => `<li>${item}</li>`).join('') || ''}
+                    ${exp.responsibilities?.map(item => `<li>${item}</li>`).join('') || '<li>No responsibilities listed.</li>'}
                 </ul>
             </div>
         `).join('') || '<p>No experience entries available.</p>';
